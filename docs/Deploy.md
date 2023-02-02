@@ -11,6 +11,11 @@ cd ~/SourceCode/bybit-place-trailing-stops-job/dist
 scp bybit-place-trailing-stops-job-0.1.0rc1.tar.gz test1@{server_ip_address}:/home/test1/
 ```
 
+# Connect to server
+```
+ssh test1@{server_ip_address}
+```
+
 # Copy build to app folder and unzip
 ```
 mv bybit-place-trailing-stops-job-0.1.0rc1.tar.gz app/bybit-place-trailing-stops-job/
